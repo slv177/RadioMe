@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50CC0B4C21D959B300FC6A3A /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0B4B21D959B300FC6A3A /* SideMenuViewController.swift */; };
 		50FD1E8521D94E33009487F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1E8421D94E33009487F5 /* AppDelegate.swift */; };
 		50FD1E8721D94E33009487F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1E8621D94E33009487F5 /* ViewController.swift */; };
 		50FD1E8A21D94E33009487F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FD1E8821D94E33009487F5 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		335B2621F4D9AC570860F45D /* Pods-RadioMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioMeTests/Pods-RadioMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47AC206D219EFBBC4189482F /* Pods-RadioMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioMeTests/Pods-RadioMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		4AA61503FBB8FCE32DD923EE /* Pods-RadioMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioMe/Pods-RadioMe.release.xcconfig"; sourceTree = "<group>"; };
+		50CC0B4B21D959B300FC6A3A /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		50FD1E8121D94E33009487F5 /* RadioMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FD1E8421D94E33009487F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FD1E8621D94E33009487F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50CC0B4D21D959C500FC6A3A /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				50CC0B4B21D959B300FC6A3A /* SideMenuViewController.swift */,
+			);
+			name = SideMenu;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		50FD1E7821D94E33009487F5 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +105,7 @@
 				50FD1E8421D94E33009487F5 /* AppDelegate.swift */,
 				50FD1E8621D94E33009487F5 /* ViewController.swift */,
 				50FD1E8821D94E33009487F5 /* Main.storyboard */,
+				50CC0B4D21D959C500FC6A3A /* SideMenu */,
 				50FD1E8E21D94E35009487F5 /* Assets.xcassets */,
 				50FD1E9021D94E35009487F5 /* LaunchScreen.storyboard */,
 				50FD1E9321D94E35009487F5 /* Info.plist */,
@@ -304,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CC0B4C21D959B300FC6A3A /* SideMenuViewController.swift in Sources */,
 				50FD1E8721D94E33009487F5 /* ViewController.swift in Sources */,
 				50FD1E8D21D94E33009487F5 /* RadioMe.xcdatamodeld in Sources */,
 				50FD1E8521D94E33009487F5 /* AppDelegate.swift in Sources */,
