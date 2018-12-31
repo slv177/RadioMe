@@ -12,7 +12,7 @@
 		50CC0C2D21D98CC400FC6A3A /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0C2921D98CC300FC6A3A /* SideMenuViewController.swift */; };
 		50CC0C2E21D98CC400FC6A3A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0C2A21D98CC300FC6A3A /* MenuItem.swift */; };
 		50CC0C2F21D98CC400FC6A3A /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0C2B21D98CC400FC6A3A /* CenterViewController.swift */; };
-		50FD1E8521D94E33009487F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1E8421D94E33009487F5 /* AppDelegate.swift */; };
+		50CC0C3021D9984100FC6A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1E8421D94E33009487F5 /* AppDelegate.swift */; };
 		50FD1E8A21D94E33009487F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FD1E8821D94E33009487F5 /* Main.storyboard */; };
 		50FD1E8D21D94E33009487F5 /* RadioMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1E8B21D94E33009487F5 /* RadioMe.xcdatamodeld */; };
 		50FD1E8F21D94E35009487F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FD1E8E21D94E35009487F5 /* Assets.xcassets */; };
@@ -325,10 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CC0C3021D9984100FC6A3A /* AppDelegate.swift in Sources */,
 				50CC0B5521D9630E00FC6A3A /* ContainerViewController.swift in Sources */,
 				50CC0C2C21D98CC400FC6A3A /* MenuButton.swift in Sources */,
 				50FD1E8D21D94E33009487F5 /* RadioMe.xcdatamodeld in Sources */,
-				50FD1E8521D94E33009487F5 /* AppDelegate.swift in Sources */,
 				50CC0C2E21D98CC400FC6A3A /* MenuItem.swift in Sources */,
 				50CC0C2F21D98CC400FC6A3A /* CenterViewController.swift in Sources */,
 				50CC0C2D21D98CC400FC6A3A /* SideMenuViewController.swift in Sources */,
