@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50CC0B4C21D959B300FC6A3A /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0B4B21D959B300FC6A3A /* SideMenuViewController.swift */; };
-		50CC0B4F21D95E7800FC6A3A /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0B4E21D95E7800FC6A3A /* CenterViewController.swift */; };
-		50CC0B5121D9610C00FC6A3A /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0B5021D9610C00FC6A3A /* MenuButton.swift */; };
-		50CC0B5321D962B000FC6A3A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0B5221D962B000FC6A3A /* MenuItem.swift */; };
 		50CC0B5521D9630E00FC6A3A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0B5421D9630E00FC6A3A /* ContainerViewController.swift */; };
+		50CC0C2C21D98CC400FC6A3A /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0C2821D98CC300FC6A3A /* MenuButton.swift */; };
+		50CC0C2D21D98CC400FC6A3A /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0C2921D98CC300FC6A3A /* SideMenuViewController.swift */; };
+		50CC0C2E21D98CC400FC6A3A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0C2A21D98CC300FC6A3A /* MenuItem.swift */; };
+		50CC0C2F21D98CC400FC6A3A /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC0C2B21D98CC400FC6A3A /* CenterViewController.swift */; };
 		50FD1E8521D94E33009487F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1E8421D94E33009487F5 /* AppDelegate.swift */; };
-		50FD1E8721D94E33009487F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1E8621D94E33009487F5 /* ViewController.swift */; };
 		50FD1E8A21D94E33009487F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FD1E8821D94E33009487F5 /* Main.storyboard */; };
 		50FD1E8D21D94E33009487F5 /* RadioMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1E8B21D94E33009487F5 /* RadioMe.xcdatamodeld */; };
 		50FD1E8F21D94E35009487F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FD1E8E21D94E35009487F5 /* Assets.xcassets */; };
@@ -38,14 +37,13 @@
 		335B2621F4D9AC570860F45D /* Pods-RadioMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioMeTests/Pods-RadioMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47AC206D219EFBBC4189482F /* Pods-RadioMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioMeTests/Pods-RadioMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		4AA61503FBB8FCE32DD923EE /* Pods-RadioMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioMe/Pods-RadioMe.release.xcconfig"; sourceTree = "<group>"; };
-		50CC0B4B21D959B300FC6A3A /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
-		50CC0B4E21D95E7800FC6A3A /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CenterViewController.swift; path = RadioMe/CenterView/CenterViewController.swift; sourceTree = SOURCE_ROOT; };
-		50CC0B5021D9610C00FC6A3A /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuButton.swift; path = RadioMe/CenterView/MenuButton.swift; sourceTree = SOURCE_ROOT; };
-		50CC0B5221D962B000FC6A3A /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuItem.swift; path = RadioMe/SideMenu/MenuItem.swift; sourceTree = SOURCE_ROOT; };
 		50CC0B5421D9630E00FC6A3A /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContainerViewController.swift; path = RadioMe/ContainerViewController.swift; sourceTree = SOURCE_ROOT; };
+		50CC0C2821D98CC300FC6A3A /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuButton.swift; path = RadioMe/MenuButton.swift; sourceTree = SOURCE_ROOT; };
+		50CC0C2921D98CC300FC6A3A /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuViewController.swift; path = RadioMe/SideMenuViewController.swift; sourceTree = SOURCE_ROOT; };
+		50CC0C2A21D98CC300FC6A3A /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuItem.swift; path = RadioMe/MenuItem.swift; sourceTree = SOURCE_ROOT; };
+		50CC0C2B21D98CC400FC6A3A /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CenterViewController.swift; path = RadioMe/CenterViewController.swift; sourceTree = SOURCE_ROOT; };
 		50FD1E8121D94E33009487F5 /* RadioMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FD1E8421D94E33009487F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50FD1E8621D94E33009487F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50FD1E8921D94E33009487F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50FD1E8C21D94E33009487F5 /* RadioMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RadioMe.xcdatamodel; sourceTree = "<group>"; };
 		50FD1E8E21D94E35009487F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,11 +79,10 @@
 		50CC0B4D21D959C500FC6A3A /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				50CC0B4B21D959B300FC6A3A /* SideMenuViewController.swift */,
-				50CC0B4E21D95E7800FC6A3A /* CenterViewController.swift */,
-				50CC0B5421D9630E00FC6A3A /* ContainerViewController.swift */,
-				50CC0B5221D962B000FC6A3A /* MenuItem.swift */,
-				50CC0B5021D9610C00FC6A3A /* MenuButton.swift */,
+				50CC0C2B21D98CC400FC6A3A /* CenterViewController.swift */,
+				50CC0C2821D98CC300FC6A3A /* MenuButton.swift */,
+				50CC0C2A21D98CC300FC6A3A /* MenuItem.swift */,
+				50CC0C2921D98CC300FC6A3A /* SideMenuViewController.swift */,
 			);
 			name = SideMenu;
 			path = "New Group";
@@ -115,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				50FD1E8421D94E33009487F5 /* AppDelegate.swift */,
-				50FD1E8621D94E33009487F5 /* ViewController.swift */,
 				50FD1E8821D94E33009487F5 /* Main.storyboard */,
+				50CC0B5421D9630E00FC6A3A /* ContainerViewController.swift */,
 				50CC0B4D21D959C500FC6A3A /* SideMenu */,
 				50FD1E8E21D94E35009487F5 /* Assets.xcassets */,
 				50FD1E9021D94E35009487F5 /* LaunchScreen.storyboard */,
@@ -328,14 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CC0B5321D962B000FC6A3A /* MenuItem.swift in Sources */,
-				50CC0B4C21D959B300FC6A3A /* SideMenuViewController.swift in Sources */,
 				50CC0B5521D9630E00FC6A3A /* ContainerViewController.swift in Sources */,
-				50FD1E8721D94E33009487F5 /* ViewController.swift in Sources */,
-				50CC0B5121D9610C00FC6A3A /* MenuButton.swift in Sources */,
+				50CC0C2C21D98CC400FC6A3A /* MenuButton.swift in Sources */,
 				50FD1E8D21D94E33009487F5 /* RadioMe.xcdatamodeld in Sources */,
 				50FD1E8521D94E33009487F5 /* AppDelegate.swift in Sources */,
-				50CC0B4F21D95E7800FC6A3A /* CenterViewController.swift in Sources */,
+				50CC0C2E21D98CC400FC6A3A /* MenuItem.swift in Sources */,
+				50CC0C2F21D98CC400FC6A3A /* CenterViewController.swift in Sources */,
+				50CC0C2D21D98CC400FC6A3A /* SideMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

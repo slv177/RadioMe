@@ -18,7 +18,6 @@ class CenterViewController: UIViewController {
         }
     }
     
-    // @IBOutlet var symbol: UILabel!
     @IBOutlet weak var symbol: UILabel!
     
     // MARK: ViewController
@@ -30,9 +29,14 @@ class CenterViewController: UIViewController {
         
         menuButton = MenuButton()
         menuButton.tapHandler = {
+            print(self)
+            print(self.parent)
+            print(self.parent?.parent)
             if let containerVC = self.navigationController?.parent as? ContainerViewController {
                 containerVC.toggleSideMenu()
+                print("tapped menu button, in if")
             }
+            print("tapped menu button, after if")
         }
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: menuButton)
         menuItem = MenuItem.sharedItems.first!

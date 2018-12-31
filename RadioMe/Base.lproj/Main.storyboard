@@ -13,7 +13,7 @@
         <!--Navigation Controller-->
         <scene sceneID="2hZ-QS-BRc">
             <objects>
-                <navigationController id="KLv-Fz-RHD" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="CenterNav" id="KLv-Fz-RHD" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sA0-qw-QEJ">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -60,7 +60,7 @@
         <!--Side Menu View Controller-->
         <scene sceneID="7fI-T3-4Cu">
             <objects>
-                <tableViewController id="ceq-P9-1Vu" customClass="SideMenuViewController" customModule="RadioMe" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SideMenu" id="ceq-P9-1Vu" customClass="SideMenuViewController" customModule="RadioMe" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="28" id="140-aR-SBt">
                         <rect key="frame" x="0.0" y="0.0" width="80" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,7 +100,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVY-Gp-Zd3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-656" y="465.06746626686657"/>
+            <point key="canvasLocation" x="-891" y="401"/>
         </scene>
     </scenes>
 </document>

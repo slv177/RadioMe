@@ -101,6 +101,7 @@ class ContainerViewController: UIViewController {
     }
     
     func toggleSideMenu() {
+        print("tapped menu button, in toggle menu")
         let isOpen = floor(centerViewController.view.frame.origin.x/menuWidth)
         let targetProgress: CGFloat = isOpen == 1.0 ? 0.0: 1.0
         
