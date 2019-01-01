@@ -6,7 +6,8 @@
 //  Copyright © 2018 SS. All rights reserved.
 //
 
-// пробный коммит №2 в дев ветке.
+// пробный коммит №3 в дев ветке.
+
 
 import UIKit
 
