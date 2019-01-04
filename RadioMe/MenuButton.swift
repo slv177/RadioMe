@@ -24,6 +24,5 @@ class MenuButton: UIView {
     
     @objc func didTap() {
         tapHandler?()
-        print("tapped menu button")
     }
 }
