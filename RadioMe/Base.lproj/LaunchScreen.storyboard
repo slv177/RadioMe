@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RadioMe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9o-i5-aQ9">
-                                <rect key="frame" x="114" y="213" width="147.5" height="43"/>
+                                <rect key="frame" x="114" y="426" width="147.5" height="43"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,14 +30,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Face" translatesAutoresizingMaskIntoConstraints="NO" id="OUY-t3-2gh">
+                                <rect key="frame" x="59" y="59" width="257" height="261"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OUY-t3-2gh" secondAttribute="height" multiplier="257:261" id="Dt6-8u-ccI"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BUD-Nv-YDN" secondAttribute="bottom" constant="20" id="28K-zQ-po2"/>
-                            <constraint firstItem="D9o-i5-aQ9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="193" id="5SW-3m-kCp"/>
+                            <constraint firstItem="D9o-i5-aQ9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="406" id="5SW-3m-kCp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BUD-Nv-YDN" secondAttribute="trailing" constant="16" id="DIu-Q9-bxw"/>
+                            <constraint firstItem="OUY-t3-2gh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="Ehc-36-51N"/>
                             <constraint firstItem="BUD-Nv-YDN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Vvf-JF-NRl"/>
                             <constraint firstItem="D9o-i5-aQ9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eUS-SS-1Lc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OUY-t3-2gh" secondAttribute="trailing" constant="59" id="kl0-8A-rvd"/>
+                            <constraint firstItem="OUY-t3-2gh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="wzd-kr-lYP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -47,4 +56,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Face" width="1024" height="1024"/>
+    </resources>
 </document>

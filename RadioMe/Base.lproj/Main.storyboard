@@ -41,9 +41,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqe-QV-SNJ">
-                                <rect key="frame" x="168.5" y="436" width="38" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="▷"/>
+                                <rect key="frame" x="169.5" y="435" width="36" height="61"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="41"/>
+                                <state key="normal" title="☐"/>
                                 <connections>
                                     <action selector="playButton:" destination="o5L-jH-TQU" eventType="touchUpInside" id="NWq-mo-lJX"/>
                                 </connections>

@@ -24,7 +24,7 @@ class CenterViewController: UIViewController, FRadioPlayerDelegate {
     @IBOutlet weak var symbol: UILabel!
     @IBAction func playButton(_ sender: UIButton) {
         player.togglePlaying()
-        player.isPlaying ? sender.setTitle("▷", for: .normal) : sender.setTitle("☐", for: .normal)
+        player.isPlaying ? sender.setTitle("☐", for: .normal) : sender.setTitle("▷", for: .normal)
     }
     
     
