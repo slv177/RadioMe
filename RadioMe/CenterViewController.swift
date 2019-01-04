@@ -24,6 +24,7 @@ class CenterViewController: UIViewController, FRadioPlayerDelegate {
     @IBOutlet weak var symbol: UILabel!
     @IBAction func playButton(_ sender: UIButton) {
         player.togglePlaying()
+        player.isPlaying ? sender.setTitle("▷", for: .normal) : sender.setTitle("☐", for: .normal)
     }
     
     
@@ -46,11 +47,15 @@ class CenterViewController: UIViewController, FRadioPlayerDelegate {
         menuButton = MenuButton()
         menuButton.tapHandler = {
             if let containerVC = self.navigationController?.parent as? ContainerViewController {
+
                 containerVC.toggleSideMenu()
             }
+        self.player.radioURL = URL(string: self.menuItem.streamingUrl)
+
         }
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: menuButton)
         menuItem = MenuItem.sharedItems.first!
+
     }
     
     
