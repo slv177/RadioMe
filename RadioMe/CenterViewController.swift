@@ -27,9 +27,6 @@ class CenterViewController: UIViewController, FRadioPlayerDelegate {
         player.isPlaying ? sender.setTitle("☐", for: .normal) : sender.setTitle("▷", for: .normal)
     }
     
-    
-    
-    
     // MARK: ViewController
     
     var menuButton: MenuButton!
@@ -41,8 +38,6 @@ class CenterViewController: UIViewController, FRadioPlayerDelegate {
         
         player.delegate = self
         player.radioURL = URL(string: initialStreamingUrl)
-//        self.stationOutlet.text = initialStationTitle
-//        self.streamingURLoutlet.text = initialStreamingUrl
         
         menuButton = MenuButton()
         menuButton.tapHandler = {
