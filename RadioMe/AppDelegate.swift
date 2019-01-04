@@ -18,11 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        print("app del")
-        
-        
-        // Override point for customization after application launch.
-        
+       
         application.statusBarStyle = UIStatusBarStyle.lightContent
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)

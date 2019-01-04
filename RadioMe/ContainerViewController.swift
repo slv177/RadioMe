@@ -22,8 +22,6 @@ class ContainerViewController: UIViewController {
     init(sideMenu: UIViewController, center: UINavigationController) {
         menuViewController = sideMenu
         centerViewController = center
-        print("menVC", menuViewController)
-        print("cenVC",centerViewController)
         super.init(nibName: nil, bundle: nil)
     }
     
